@@ -21,6 +21,22 @@ html,body{
     -webkit-box-flex: 1;
     width: 0;
 }
+/*背景颜色*/
+#about{
+    background: url(mybg.png) #4b85a0
+}
+#study{
+    background: url(mybg.png) #58c03b
+}
+#item{
+    background: url(mybg.png) #c03b25
+}
+#tech{
+    background: url(mybg.png) #e0a718
+}
+#self{
+    background: url(mybg.png) #c03eac
+}
 .pagenumber{
     display: -webkit-box;
     position: absolute;
@@ -57,17 +73,6 @@ h3{
     font-weight: normal;
     padding: 1em 0;
     margin: 0;
-}
-button{
-    width: 40%;
-    margin: auto;
-    height: 3em;
-    background: #fff6de;
-    line-height: 3rem;
-    color: #000;
-    padding: 0;
-    border: none;
-    display: block;
 }
 @media screen and (max-width: 360px) {
     html,body{font-size: 15px}
