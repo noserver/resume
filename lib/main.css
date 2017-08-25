@@ -20,7 +20,6 @@ html,body{
 .pageview{
     -webkit-box-flex: 1;
     width: 0;
-    overflow: scroll;
 }
 /*背景颜色*/
 #about{
@@ -128,15 +127,27 @@ img{
 }
 
 @media screen and (max-width: 360px) {
-    html,body{font-size: 15px}
+    html,body{font-size: 14px}
+    .container{
+        left: 8%;
+        width: 84%;
+    }
 }
 @media screen and (min-width: 360px) and (max-width: 400px) {
-    html,body{font-size: 16px}
+    html,body{font-size: 14px}
+    .container{
+        left: 8%;
+        width:84%;
+    }
 }
 @media screen and (min-width: 400px) and (max-width: 460px) {
-    html,body{font-size: 18px}
+    html,body{font-size: 16px}
+    .container{
+        left: 8%;
+        width:84%;
+    }
 }
 @media screen and (min-width: 460px){
-    html,body{font-size: 24px}
+    html,body{font-size: 20px}
 }
 
