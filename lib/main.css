@@ -88,6 +88,12 @@ html,body{
     /*align-items: flex-start;*/
     align-content: flex-start;
 }
+/**/
+.item-title{
+    display: flex;
+    font-size: 1.1em;
+    min-width: 100%;
+}
 /*每条信息*/
 .about-item{
     min-width: 50%;
@@ -98,6 +104,10 @@ html,body{
 .study-item{
     min-width: 100%;
     min-height: 1.6em;
+}
+/*段落*/
+.p-item{
+    min-height: 100%;
 }
 
 /*通用*/
