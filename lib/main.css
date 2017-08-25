@@ -23,19 +23,19 @@ html,body{
 }
 /*背景颜色*/
 #about{
-    background: url(mybg.png) #4b85a0
+    background: url(mybg.png) #4285F4/*google四配色*/
 }
 #study{
-    background: url(mybg.png) #58c03b
+    background: url(mybg.png) #EA4335
 }
 #item{
-    background: url(mybg.png) #c03b25
+    background: url(mybg.png) #FBBC05
 }
 #tech{
-    background: url(mybg.png) #e0a718
+    background: url(mybg.png) #34A853
 }
 #self{
-    background: url(mybg.png) #c03eac
+    background: url(mybg.png) #E76120/*太阳橙*/
 }
 .pagenumber{
     display: -webkit-box;
@@ -65,15 +65,52 @@ html,body{
     margin-top: -0.2em;
     margin-left: -0.2em;
 }
-h3{
-    text-align: center;
-    font-family: Microsoft YaHei,Arial;
-    color: #fff;
-    font-size: 1.7em;
-    font-weight: normal;
-    padding: 1em 0;
-    margin: 0;
+.container{
+    position: fixed;
+    left: 20%;
+    width: 60%;
+    top: 4em;
+    bottom: 4em;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
+.about-title{
+    display: flex;
+    font-size: 1.3em;
+}
+.about-items{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    /*align-items: flex-start;*/
+    align-content: flex-start;
+}
+/*每条信息*/
+.about-item{
+    min-width: 50%;
+    min-height: 1.6em;
+    /*flex-grow: 1;*/
+}
+.icon{
+    max-height: 1.3em;
+}
+/*换行*/
+.enter{
+    height: 1em;
+}
+/*空格*/
+.space{
+    width: 1em;
+}
+
+/*通用*/
+img{
+    pointer-events: none;
+}
+
 @media screen and (max-width: 360px) {
     html,body{font-size: 15px}
 }
