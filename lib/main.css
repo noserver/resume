@@ -103,7 +103,8 @@ html,body{
 /*个人经历 每行一条*/
 .study-item{
     min-width: 100%;
-    min-height: 1.6em;
+    min-height: 3em;
+    
 }
 /*段落*/
 .p-item{
@@ -116,7 +117,7 @@ html,body{
 }
 /*换行*/
 .enter{
-    height: 1em;
+    height: 2em;
 }
 /*空格*/
 .space{
@@ -124,6 +125,15 @@ html,body{
 }
 img{
     pointer-events: none;
+}
+#about > .container > .items >.about-item{
+    min-height: 2em;
+}
+#tech > .container > .items > .p-item{
+    min-height: 3em;
+}
+#self > .container > .items > .p-item > ul > li{
+    min-height: 3em;
 }
 
 @media screen and (max-width: 360px) {
@@ -154,6 +164,6 @@ img{
     }
 }
 @media screen and (min-width: 460px){
-    html,body{font-size: 20px}
+    html,body{font-size: 20px};
 }
 
