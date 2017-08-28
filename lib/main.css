@@ -132,6 +132,12 @@ img{
         left: 8%;
         width: 84%;
     }
+    #project > .container > .items > .p-item{
+        font-size: 12px;
+    }
+    #project > .container{
+        top: 2em;
+    }
 }
 @media screen and (min-width: 360px) and (max-width: 400px) {
     html,body{font-size: 14px}
