@@ -148,6 +148,15 @@ img{
     #project > .container{
         top: 2em;
     }
+    #project > .container > .enter{
+        height: 1em;
+    }
+    #tech > .container > .enter{
+        height: 1em;
+    }
+    #self > .container > .enter{
+        height: 1em;
+    }
 }
 @media screen and (min-width: 360px) and (max-width: 400px) {
     html,body{font-size: 14px}
